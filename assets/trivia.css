@@ -1,0 +1,37 @@
+.banner {
+    height: 100vh;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+   }
+   h1 {
+    display: table-cell;
+    vertical-align;
+   }
+
+
+body{
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/file_17b9fe9c.jpeg?width=1200&region=0%2C0%2C2000%2C2000&quality=8");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:1600px;
+   }
+
+.jumborton {
+  
+    height: 1600px;
+    margin-right: 10px;
+    
+    background-color: #694effab;
+    font-size: 16px;
+    font-style: oblique;
+
+}   
+
+h1,h2{
+    text-align: center;
+}
+
+form{
+    background-color: aqua;
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+   
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="assets/trivia.css">
+  
+</head>
+
+<body>
+   
+  <div class=”banner”>
+    
+    <h1><img src="https://i.pinimg.com/originals/7e/57/94/7e5794a642d70625373a21cf91e64622.jpg" alt="Smiley face" width="42"
+        height="42"> MICKEY MOUSE TRIVIA GAME! <img src="https://i.pinimg.com/originals/7e/57/94/7e5794a642d70625373a21cf91e64622.jpg"
+        alt="Smiley face" width="42" height="42"> MICKEY MOUSE TRIVIA GAME! <img src="https://i.pinimg.com/originals/7e/57/94/7e5794a642d70625373a21cf91e64622.jpg"
+        alt="Smiley face" width="42" height="42"></h1>
+  </div>
+
+  
+  
+    <div class="container">
+
+        
+      <div class="jumbotron">
+          
+        
+            <div class="row">
+                <h1>The Rules:</h1>
+            </div>
+
+            <div class="row">
+            <p>There are 17 questions, you have 50 seconds to answer all questions.</p>
+              </div>
+              <div class="row">
+                <p>Click Start to begin!</p>
+              </div>
+                <div class="row">
+                <button type="button"><a href="#" id="startClock"> Start</a></button>
+                <span id="count">50</span> seconds remain
+              </div>
+            
+            <form name="myform">
+              Q1.Who is Mickey Mouse?<br>
+              <input type="radio" name="q1" value="a">Mickey Mouse is a funny animal cartoon character.</br>
+              <input type="radio" name="q1" value="b">Mickey Mouse is an American animated anthropomorphic superhero
+              mouse character.</br><br>
+
+              Q2.Mickey Mouse is the official mascot of what company?<br>
+              <input type="radio" name="q2" value="a">The Walt Disney Company.</br>
+              <input type="radio" name="q2" value="b">20th Century Fox</br><br>
+
+              Q3.Who created Mickey Mouse?<br>
+              <input type="radio" name="q3" value="a">Walt Disney and Ub Iwerks.</br>
+              <input type="radio" name="q3" value="b">Paul Terry</br><br>
+
+              Q4.Where was Mickey created?<br>
+              <input type="radio" name="q4" value="a">At the Walt Disney Studios.</br>
+              <input type="radio" name="q4" value="b">At the 20th Century Studios<br></br>
+
+              Q5.When was Mickey created?<br>
+              <input type="radio" name="q5" value="a">
+              In 1928.</br>
+              <input type="radio" name="q5" value="b">1942<br></br>
+
+              Q6.What does Mickey the Mouse usually wear?<br>
+              <input type="radio" name="q6" value="a">Red shorts, large yellow shoes, and white gloves.</br>
+              <input type="radio" name="q6" value="b">Trunks and a red cape, similar to Superman.<br></br>
+
+              Q7.Mickey officially debuted in what short film?<br>
+              <input type="radio" name="q7" value="a">Steamboat Willie.</br>
+              <input type="radio" name="q7" value="b">The Mouse of Tomorrow.<br></br>
+
+              Q8.How many films did appear in?<br>
+              <input type="radio" name="q8" value="a">
+              Over 130.</br>
+              <input type="radio" name="q8" value="b"><br>Under 130</br>
+
+              Q9.In 1935, what movie did Mickey appear in?<br>
+              <input type="radio" name="q9" value="a">
+              The Band Concert .</br>
+              <input type="radio" name="q9" value="b">The Mouse Kouture<br></br>
+
+              Q10.In 1938, what film did Mickey Mouse appear in?<br>
+              <input type="radio" name="q10" value="a">
+              Brave Little Tailor.</br>
+              <input type="radio" name="q10" value="b">Oil Can Harry.<br></br>
+
+              Q11.In 1940, what movie did Mickey appear in?<br>
+              <input type="radio" name="q11" value="a">
+              Fantasia.</br>
+              <input type="radio" name="q11" value="b">Mitzi<br></br>
+
+              Q12.Mickey Mouse primarily appeared in short films, but also sometimes in what?<br>
+              <input type="radio" name="q12" value="a">
+              Feature-length films.</br>
+              <input type="radio" name="q12" value="b">Web Series<br></br>
+
+              Q14.How many of the Mickey Mouse cartoons were nominated for the Academy Award for Best Animated Short
+              Film?<br>
+              <input type="radio" name="q13" value="a">
+              Ten.</br>
+              <input type="radio" name="q13" value="b">Twenty<br></br>
+
+              Q15.Which Mickey cartoon won the Academy Award for Best Animated Short Film in 1942?<br>
+              <input type="radio" name="q14" value="a">
+              Lend a Paw.</br>
+              <input type="radio" name="q14" value="b">Mouse Attack<br></br>
+
+              Q16.In what year did Mickey Mouse became the first cartoon character to have a star on the Hollywood Walk
+              of
+              Fame?<br>
+              <input type="radio" name="q15" value="a">
+              In 1978.</br>
+              <input type="radio" name="q15" value="b">In 1989<br></br>
+
+              Q17.Beginning in 1930, what was Mickey featured as?<br>
+              <input type="radio" name="q16" value="a">
+              A comic strip character</br>
+              <input type="radio" name="q16" value="b">Theatrical film <br></br>
+          
+        
+          <input id="submit" type="button" value="submit">
+        
+
+        </form>
+      </div>
+    
+
+    </div>
+  
+    <script src="assets/trivia.js"></script>
+</body>
+
+</html>
